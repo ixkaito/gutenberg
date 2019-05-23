@@ -2,13 +2,13 @@
 # 開発者ドキュメント
 
 <!-- The new editor is highly flexible, like most of WordPress. You can build custom blocks, modify the editor's appearance, add special plugins, and much more. -->
-WordPress の大部分と同様に、新しいエディタは非常に柔軟です。カスタムブロックを構築したり、エディタの見た目を変更したり、独自のプラグインを追加したりすることができます。他にもたくさんあります。
+WordPress の大部分と同様に、新しいエディタは非常に柔軟です。カスタムブロックを構築したり、エディターの見た目を変更したり、独自のプラグインを追加したりすることができます。他にもたくさんあります。
 
 <!-- ## Creating Blocks -->
 ## ブロックの作成
 
 <!-- The editor is about blocks, and the main extensibility API is the Block API. It allows you to create your own static blocks, [Dynamic Blocks](/docs/designers-developers/developers/tutorials/block-tutorial/creating-dynamic-blocks.md) ( rendered on the server ) and also blocks capable of saving data to Post Meta for more structured content. -->
-このエディタの本質はブロックであり、最も重要な拡張 API はブロック API です。独自の静的ブロック、[動的ブロック](/docs/designers-developers/developers/tutorials/block-tutorial/creating-dynamic-blocks.md) (サーバ上でレンダリングされる) 、または構造化されたコンテンツのために、投稿メタにデータを保存できるブロックを、あなた自身で作ることを可能にしてくれます。
+このエディターの本質はブロックであり、最も重要な拡張 API はブロック API です。独自の静的ブロック、[動的ブロック](/docs/designers-developers/developers/tutorials/block-tutorial/creating-dynamic-blocks.md) (サーバ上でレンダリングされる) 、または構造化されたコンテンツのために、投稿メタにデータを保存できるブロックを、あなた自身で作ることを可能にしてくれます。
 
 <!-- If you want to learn more about block creation, the [Blocks Tutorial](/docs/designers-developers/developers/tutorials/block-tutorial/readme.md) is the best place to start. -->
 ブロック作成についてもっと詳しく知りたい場合は、[ブロックチュートリアル](/docs/designers-developers/developers/tutorials/block-tutorial/readme.md)から始めるのがもっともよいでしょう。
@@ -21,7 +21,7 @@ It is also possible to modify the behavior of existing blocks or even remove the
 Learn more in the [Block Filters](/docs/designers-developers/developers/filters/block-filters.md) section.
 
 <!-- ## Extending the Editor UI -->
-## エディタ UI の拡張
+## エディター UI の拡張
 
 Extending the editor UI can be accomplished with the `registerPlugin` API, allowing you to define all your plugin's UI elements in one place.
 
