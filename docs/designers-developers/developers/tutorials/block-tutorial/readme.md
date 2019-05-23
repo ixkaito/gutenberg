@@ -1,4 +1,5 @@
-# Blocks
+<!-- # Blocks -->
+# ブロック
 
 The purpose of this tutorial is to step through the fundamentals of creating a new block type. Beginning with the simplest possible example, each new section will incrementally build upon the last to include more of the common functionality you could expect to need when implementing your own block types.
 

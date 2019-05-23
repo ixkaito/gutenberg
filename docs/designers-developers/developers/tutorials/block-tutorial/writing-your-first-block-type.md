@@ -1,6 +1,8 @@
-# Writing Your First Block Type
+<!-- # Writing Your First Block Type -->
+# 初めてのブロックタイプを書く
 
-To keep things simple for our first example, let's create a new block type which displays a styled message in a post. At this point, we won't allow the user to edit the message. We'll learn more about editable fields in later sections.
+<!-- To keep things simple for our first example, let's create a new block type which displays a styled message in a post. At this point, we won't allow the user to edit the message. We'll learn more about editable fields in later sections. -->
+初めての例をシンプルにするため、装飾済みのメッセージを投稿内に表示するブロックを作成しましょう。この時点では、ユーザがメッセージを編集できるようにはしません。編集可能フィールドについては、後節で詳しく学びます。
 
 Blocks containing static content are implemented entirely in JavaScript using the `registerBlockType` function. This function is responsible for specifying the blueprint of a block, describing the behaviors necessary for the editor to understand how it appears, changes when edited, and is ultimately saved in the post's content.
 
