@@ -7,9 +7,11 @@ WordPress の大部分と同様に、新しいエディタは非常に柔軟で�
 <!-- ## Creating Blocks -->
 ## ブロックの作成
 
-The editor is about blocks, and the main extensibility API is the Block API. It allows you to create your own static blocks, [Dynamic Blocks](/docs/designers-developers/developers/tutorials/block-tutorial/creating-dynamic-blocks.md) ( rendered on the server ) and also blocks capable of saving data to Post Meta for more structured content.
+<!-- The editor is about blocks, and the main extensibility API is the Block API. It allows you to create your own static blocks, [Dynamic Blocks](/docs/designers-developers/developers/tutorials/block-tutorial/creating-dynamic-blocks.md) ( rendered on the server ) and also blocks capable of saving data to Post Meta for more structured content. -->
+このエディタの本質はブロックであり、最も重要な拡張 API はブロック API です。独自の静的ブロック、[動的ブロック](/docs/designers-developers/developers/tutorials/block-tutorial/creating-dynamic-blocks.md) (サーバ上でレンダリングされる) 、または構造化されたコンテンツのために、投稿メタにデータを保存できるブロックを、あなた自身で作ることを可能にしてくれます。
 
-If you want to learn more about block creation, the [Blocks Tutorial](/docs/designers-developers/developers/tutorials/block-tutorial/readme.md) is the best place to start.
+<!-- If you want to learn more about block creation, the [Blocks Tutorial](/docs/designers-developers/developers/tutorials/block-tutorial/readme.md) is the best place to start. -->
+ブロック作成についてもっと詳しく知りたい場合は、[ブロックチュートリアル](/docs/designers-developers/developers/tutorials/block-tutorial/readme.md)から始めるのがもっともよいでしょう。
 
 <!-- ## Extending Blocks -->
 ## ブロックの拡張
