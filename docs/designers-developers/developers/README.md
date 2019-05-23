@@ -1,20 +1,25 @@
-# Developer Documentation
+<!-- # Developer Documentation -->
+# 開発者ドキュメント
 
-The new editor is highly flexible, like most of WordPress. You can build custom blocks, modify the editor's appearance, add special plugins, and much more.
+<!-- The new editor is highly flexible, like most of WordPress. You can build custom blocks, modify the editor's appearance, add special plugins, and much more. -->
+WordPress の大部分と同様に、新しいエディタは非常に柔軟です。カスタムブロックを構築したり、エディタの見た目を変更したり、独自のプラグインを追加したりすることができます。他にもたくさんあります。
 
-## Creating Blocks
+<!-- ## Creating Blocks -->
+## ブロックの作成
 
 The editor is about blocks, and the main extensibility API is the Block API. It allows you to create your own static blocks, [Dynamic Blocks](/docs/designers-developers/developers/tutorials/block-tutorial/creating-dynamic-blocks.md) ( rendered on the server ) and also blocks capable of saving data to Post Meta for more structured content.
 
 If you want to learn more about block creation, the [Blocks Tutorial](/docs/designers-developers/developers/tutorials/block-tutorial/readme.md) is the best place to start.
 
-## Extending Blocks
+<!-- ## Extending Blocks -->
+## ブロックの拡張
 
 It is also possible to modify the behavior of existing blocks or even remove them completely using filters.
 
 Learn more in the [Block Filters](/docs/designers-developers/developers/filters/block-filters.md) section.
 
-## Extending the Editor UI
+<!-- ## Extending the Editor UI -->
+## エディタ UI の拡張
 
 Extending the editor UI can be accomplished with the `registerPlugin` API, allowing you to define all your plugin's UI elements in one place.
 
@@ -22,22 +27,26 @@ Refer to the [Plugins](/packages/plugins/README.md) and [Edit Post](/packages/ed
 
 You can also filter certain aspects of the editor; this is documented on the [Editor Filters](/docs/designers-developers/developers/filters/editor-filters.md) page.
 
-## Meta Boxes
+<!-- ## Meta Boxes -->
+## メタボックス
 
 Porting PHP meta boxes to blocks or sidebar plugins is highly encouraged, learn how through these [meta data tutorials](/docs/designers-developers/developers/tutorials/metabox/readme.md).
 
 See how the new editor [supports existing Meta Boxes](/docs/designers-developers/developers/backward-compatibility/meta-box.md).
 
-## Theme Support
+<!-- ## Theme Support -->
+## テーマサポート
 
 By default, blocks provide their styles to enable basic support for blocks in themes without any change. Themes can add/override these styles, or rely on defaults.
 
 There are some advanced block features which require opt-in support in the theme. See [theme support](/docs/designers-developers/developers/themes/theme-support.md).
 
-## Autocomplete
+<!-- ## Autocomplete -->
+## オートコンプリート
 
 Autocompleters within blocks may be extended and overridden. Learn more about the [autocomplete](/docs/designers-developers/developers/filters/autocomplete-filters.md) filters.
 
+<!-- ## Block Parsing and Serialization -->
 ## Block Parsing and Serialization
 
 Posts in the editor move through a couple of different stages between being stored in `post_content` and appearing in the editor. Since the blocks themselves are data structures that live in memory it takes a parsing and serialization step to transform out from and into the stored format in the database.
