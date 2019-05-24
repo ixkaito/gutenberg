@@ -6,9 +6,11 @@
 
 Blocks containing static content are implemented entirely in JavaScript using the `registerBlockType` function. This function is responsible for specifying the blueprint of a block, describing the behaviors necessary for the editor to understand how it appears, changes when edited, and is ultimately saved in the post's content.
 
-## Enqueuing Block Scripts
+<!-- ## Enqueuing Block Scripts -->
+## ブロックスクリプトをエンキューする
 
-While the block's editor behaviors are implemented in JavaScript, you'll need to register your block server-side to ensure that the script is enqueued when the editor loads. Register scripts and styles using [`wp_register_script`](https://developer.wordpress.org/reference/functions/wp_register_script/) and [`wp_register_style`](https://developer.wordpress.org/reference/functions/wp_register_style/), then assign these as handles associated with your block using the `script`, `style`, `editor_script`, and `editor_style` block type registration settings. The `editor_`-prefixed handles will only be enqueued in the context of the editor, while `script` and `style` will be enqueued both in the editor and when viewing a post on the front of your site.
+<!-- While the block's editor behaviors are implemented in JavaScript, you'll need to register your block server-side to ensure that the script is enqueued when the editor loads. Register scripts and styles using [`wp_register_script`](https://developer.wordpress.org/reference/functions/wp_register_script/) and [`wp_register_style`](https://developer.wordpress.org/reference/functions/wp_register_style/), then assign these as handles associated with your block using the `script`, `style`, `editor_script`, and `editor_style` block type registration settings. The `editor_`-prefixed handles will only be enqueued in the context of the editor, while `script` and `style` will be enqueued both in the editor and when viewing a post on the front of your site. -->
+ブロックエディターの動作は JavaScript で実行されますが、エディターが読み込まれる際、スクリプトがエンキューされるよう、サーバーサイドでブロックを登録する必要があります。[`wp_register_script`](https://developer.wordpress.org/reference/functions/wp_register_script/)と[`wp_register_style`](https://developer.wordpress.org/reference/functions/wp_register_style/)を利用してスクリプトとスタイルを登録し、これにハンドルを割り当て、`script`、`style`、`editor_script`、および`editor_style`のブロックタイプ登録設定を利用してブロックと連携します。`editor_`プレフィックスを持つハンドルはエディター画面でのみエンキューされるのに対して、`script`と`style`はエディター画面と投稿表示画面の両方でエンキューされます。
 
 ```php
 <?php
