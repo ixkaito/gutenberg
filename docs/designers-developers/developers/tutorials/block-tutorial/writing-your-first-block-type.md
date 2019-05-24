@@ -47,7 +47,8 @@ add_action( 'init', 'gutenberg_examples_01_register_block' );
 <!-- ## Registering the Block -->
 ## ブロックを登録する
 
-With the script enqueued, let's look at the implementation of the block itself:
+<!-- With the script enqueued, let's look at the implementation of the block itself: -->
+エンキューされたスクリプトとともに、ブロック自身の実装について見てみましょう。
 
 {% codetabs %}
 {% ES5 %}
