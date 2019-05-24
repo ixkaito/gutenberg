@@ -43,7 +43,8 @@ add_action( 'init', 'gutenberg_examples_01_register_block' );
 <!-- If you were to use a component from the `wp-editor` package, for example the RichText component, you would also need to add `wp-editor` to the dependency list. -->
 もし `wp-editor` パッケージのコンポーネント (たとえばリッチテキストコンポーネント) を利用したいなら、`wp-editor` も依存リストに追加する必要があります。
 
-## Registering the Block
+<!-- ## Registering the Block -->
+## ブロックを登録する
 
 With the script enqueued, let's look at the implementation of the block itself:
 
