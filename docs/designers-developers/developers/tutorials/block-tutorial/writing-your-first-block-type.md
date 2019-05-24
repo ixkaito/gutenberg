@@ -40,7 +40,8 @@ add_action( 'init', 'gutenberg_examples_01_register_block' );
 <!-- - __`wp-element`__ includes the [WordPress Element abstraction](/packages/element/README.md) for describing the structure of your blocks -->
 - __`wp-element`__ はブロック構造を表現するための [WordPress エレメントの抽象化](/packages/element/README.md)を含みます
 
-If you were to use a component from the `wp-editor` package, for example the RichText component, you would also need to add `wp-editor` to the dependency list.
+<!-- If you were to use a component from the `wp-editor` package, for example the RichText component, you would also need to add `wp-editor` to the dependency list. -->
+もし `wp-editor` パッケージのコンポーネント (たとえばリッチテキストコンポーネント) を利用したいなら、`wp-editor` も依存リストに追加する必要があります。
 
 ## Registering the Block
 
